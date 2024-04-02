@@ -1,0 +1,10 @@
+name: PrisonMines
+version: '1.0'
+main: de.psjahn.prisonmines.PrisonMines
+api-version: '1.20'
+commands:
+  prisonmines:
+    description: The main command
+softdepend:
+  - WorldEditPlugin
+  - FastAsyncWorldEdit
